@@ -57,3 +57,10 @@
   // #define ENABLE_RGB_MATRIX_STARLIGHT_DUAL_SAT        // LEDs turn on and off at random at varying brightness, modifies user set saturation by +- 30
   // #define ENABLE_RGB_MATRIX_RIVERFLOW                 // Modification to breathing animation, offset's animation depending on key location to simulate a river flowing
 #endif
+
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_INTERVAL 20
+#define MOUSEKEY_MAX_SPEED 10
+#define MOUSEKEY_TIME_TO_MAX 30
+#define MOUSEKEY_WHEEL_MAX_SPEED 8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
