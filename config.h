@@ -1,13 +1,7 @@
 #pragma once
 
-//#define USE_MATRIX_I2C
-
 //#define QUICK_TAP_TERM 0
 //#define TAPPING_TERM 100
-
-#ifdef RGBLIGHT_ENABLE
-    #undef RGBLIGHT_ENABLE
-#endif
 
 #ifdef RGB_MATRIX_ENABLE
     #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
