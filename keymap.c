@@ -55,7 +55,7 @@ bool oled_task_user(void) {
     }
     return false;
 }
-#endif
+#endif // OLED_ENABLE
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_DF] = LAYOUT_split_3x6_3(
