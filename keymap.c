@@ -31,13 +31,13 @@ bool render_status(void) {
     oled_write_P(PSTR("wpm:"), false);
     oled_write_ln(get_u8_str(get_current_wpm(), ' '), false);
 
-    oled_write(get_u8_str(rgblight_get_mode(), ' '), false);
+    oled_write(get_u8_str(rgb_matrix_config.mode, ' '), false);
     oled_write(" ", false);
-    oled_write(get_u8_str(rgblight_get_hue(), ' '), false);
+    oled_write(get_u8_str(rgb_matrix_config.hsv.h, ' '), false);
     oled_write(" ", false);
-    oled_write(get_u8_str(rgblight_get_sat(), ' '), false);
+    oled_write(get_u8_str(rgb_matrix_config.hsv.s, ' '), false);
     oled_write(" ", false);
-    oled_write_ln(get_u8_str(rgblight_get_val(), ' '), false);
+    oled_write_ln(get_u8_str(rgb_matrix_config.hsv.v, ' '), false);
 
     led_t led_state = host_keyboard_led_state();
     oled_write_P(led_state.num_lock ? PSTR("num ") : PSTR("    "), false);
