@@ -4,7 +4,7 @@
   #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
   #define RGB_MATRIX_DEFAULT_HUE 200
   #define RGB_MATRIX_DEFAULT_SAT 255
-  #define RGB_MATRIX_DEFAULT_VAL 255
+  #define RGB_MATRIX_DEFAULT_VAL 120
 
   #define ENABLE_RGB_MATRIX_SOLID_COLOR               // Static single hue, no speed support
   #define ENABLE_RGB_MATRIX_ALPHAS_MODS               // Static dual hue, speed is hue for secondary hue
